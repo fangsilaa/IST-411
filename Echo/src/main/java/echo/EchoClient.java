@@ -17,7 +17,7 @@ public class EchoClient {
         
         System.out.println("Simple Echo Client");
         try {
-            System.out.println("Waiting for connection.....");
+            System.out.println("Waiting for conne   ction.....");
             InetAddress localAddress = InetAddress.getLocalHost();
             
             try (Socket clientSocket = new Socket(localAddress, 8080);
